@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#calculator {
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    font-size: 50px;
+}
+
+table td tr {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}

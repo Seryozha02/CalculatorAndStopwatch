@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./18936069-3d-numbers-wallpaper.webp");
+}
+
+#calculator {
+    background-color: rgb(58, 58, 58);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+   
+}
+
+table tr td input{
+    font-family: sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+}
+
+input[type = button] {
+    cursor: pointer;
+}
+
+#btn {
+    color: black;
+    background-color: red;
+}
+
+
+form {
+    background-color:rgb(58, 58, 58);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+#timer {
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+form button {
+    font-size: 20px;
+    margin-left: 50px;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}

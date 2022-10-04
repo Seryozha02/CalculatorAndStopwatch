@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#calculator {
+    background-color: bisque;
+    margin: 0 a;
+    padding: 0 25px;
+}

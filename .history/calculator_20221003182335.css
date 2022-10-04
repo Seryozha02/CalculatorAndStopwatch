@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./18936069-3d-numbers-wallpaper.webp);
+    background-repeat: nor
+}
+
+#calculator {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: gray;
+    border: 2px black solid;
+    margin-left: 35%;
+    margin-top: 70px;
+}
+
+
+table tr td input{
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: black;
+    
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+#btn {
+    background-color: brown;
+}

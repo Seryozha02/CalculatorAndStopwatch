@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+#calculator {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 2px ;
+    background-color: gray;
+    border: 1px black solid;
+    margin-left: 100px;
+}

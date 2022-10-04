@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./18936069-3d-numbers-wallpaper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#calculator {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: gray;
+    border: 2px black solid;
+    margin-left: 35%;
+    margin-top: 70px;
+}
+
+
+table tr td input{
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: black;
+    border: 2px black solid;
+}
+#result {
+    border: 2px black solid;
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+#btn {
+    background-color: brown;
+}
+
+form[name = stopWatch] {
+    border: 2px black solid;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    background-color: gray;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+form div {
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    padding: 25px;
+    margin-left: 110px;
+}
+
+form button {
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-left: 35px;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width:440px) and (max-height:680px) {
+    #calculator {
+        width: 300px;
+        height: 400px;
+        border-radius: 25px;
+        background-color: gray;
+        border: 2px black solid;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    table tr td input{
+        border-radius: 30px;
+        padding: 10px 30px;
+        color: black;
+        border: 2px black solid;
+    }
+
+    form[name = stopWatch] {
+        border: 2px black solid;
+        width: 320px;
+        height: 150px;
+        border-radius: 25px;
+        background-color: gray;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+        
+    form div {
+        color: white;
+        font-size: 25px;
+        display: inline-block;
+        padding: 25px;
+        margin-left: 50px;
+    }
+    
+    form button {
+        cursor: pointer;
+        padding: 15px 15px;
+        margin-left: 20px;
+        border-radius: 25px;
+    }
+}

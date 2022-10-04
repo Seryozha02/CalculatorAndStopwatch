@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#calculator {
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 400px;
+    height: ;
+    font-size: 50px;
+}
+
+table td tr {
+        font-size: 35px;
+}
